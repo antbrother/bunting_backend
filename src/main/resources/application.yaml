@@ -1,0 +1,11 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.23.106.240:3306/bunting?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: bunting
+    password: $P@ssw0rd
+    initial-size: 2
+    max-active: 10
+    max-wait: 60000
+    min-idle: 2
